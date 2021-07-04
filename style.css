@@ -40,10 +40,19 @@ section{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
 }
-#box{
+#box1{
     margin-left: 5%;
     margin-right: 5%;
-    padding: 40px;
-    padding: 10px;
+    padding-bottom: 50px;
     box-shadow: 10px 10px 50px #888888;
+    border-left: 10px solid gray;
+    border-image: linear-gradient(#0002ff,#00fdff)30;
+}
+#box2{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 50px;
+    box-shadow: 10px 10px 50px #888888;
+    border-right: 10px solid gray;
+    border-image: linear-gradient(#ff9f79,#ff6548)30;
 }
